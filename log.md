@@ -2,9 +2,10 @@
 
 ### Day 1: January 03, Tuesday
 
-**Today's Progress**: TBD: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
 
-**Thoughts** TBD I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+**Thoughts** I think it's a good idea to follow this challenge :)
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
+1. [Use CSS Selectors to Style Elements](https://www.freecodecamp.com/challenges/use-css-selectors-to-style-elements)
+2. [Add Placeholder Text to a Text Field](https://www.freecodecamp.com/challenges/add-placeholder-text-to-a-text-field)
