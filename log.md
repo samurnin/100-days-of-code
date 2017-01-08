@@ -51,7 +51,17 @@ From [Learn how Script Tags and Document Ready Work](https://www.freecodecamp.co
 to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenges/use-jquery-to-modify-the-entire-page#?solution=%0Afccss%0A%20%20%24%28document%29.ready%28function%28%29%20{%0A%20%20%20%20%24%28%22%23target1%22%29.css%28%22color%22%2C%20%22red%22%29%3B%0A%20%20%20%20%24%28%22%23target1%22%29.prop%28%22disabled%22%2C%20true%29%3B%0A%20%20%20%20%24%28%22%23target4%22%29.remove%28%29%3B%0A%20%20%20%20%24%28%22%23target2%22%29.appendTo%28%22%23right-well%22%29%3B%0A%20%20%20%20%24%28%22%23target5%22%29.clone%28%29.appendTo%28%22%23left-well%22%29%3B%0A%20%20%20%20%24%28%22%23target1%22%29.parent%28%29.css%28%22background-color%22%2C%20%22red%22%29%3B%0A%20%20%20%20%24%28%22%23right-well%22%29.children%28%29.css%28%22color%22%2C%20%22orange%22%29%3B%0A%20%20%20%20%24%28%22%23left-well%22%29.children%28%29.css%28%22color%22%2C%20%22green%22%29%3B%0A%20%20%20%20%24%28%22.target%3Anth-child%282%29%22%29.addClass%28%22animated%20bounce%22%29%3B%0A%20%20%20%20%24%28%22.target%3Aeven%22%29.addClass%28%22animated%20shake%22%29%3B%0A%20%20%20%20%24%28%22body%22%29.addClass%28%22animated%20hinge%22%29%3B%0A%0A%20%20}%29%3B%0Afcces%0A%0A%3C!--%20Only%20change%20code%20above%20this%20line.%20--%3E%0A%0A%3Cdiv%20class%3D%22container-fluid%22%3E%0A%20%20%3Ch3%20class%3D%22text-primary%20text-center%22%3EjQuery%20Playground%3C%2Fh3%3E%0A%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22col-xs-6%22%3E%0A%20%20%20%20%20%20%3Ch4%3E%23left-well%3C%2Fh4%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22well%22%20id%3D%22left-well%22%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target1%22%3E%23target1%3C%2Fbutton%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target2%22%3E%23target2%3C%2Fbutton%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target3%22%3E%23target3%3C%2Fbutton%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3Cdiv%20class%3D%22col-xs-6%22%3E%0A%20%20%20%20%20%20%3Ch4%3E%23right-well%3C%2Fh4%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22well%22%20id%3D%22right-well%22%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target4%22%3E%23target4%3C%2Fbutton%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target5%22%3E%23target5%3C%2Fbutton%3E%0A%20%20%20%20%20%20%20%20%3Cbutton%20class%3D%22btn%20btn-default%20target%22%20id%3D%22target6%22%3E%23target6%3C%2Fbutton%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fdiv%3E%0A)
 
 
-### Day N: January 07, Saturday
+### Day 6: January 08, Sunday
+
+**Today's Progress**: Today I've just decided to start focusing on JS basic tasks.
+
+**Thoughts** So far, so good :)
+
+**Link(s) to work**
+From [Comment your JavaScript Code](https://www.freecodecamp.com/challenges/comment-your-javascript-code#?solution=%2F%2F%20to%20have%20some%20comment%20here%0A%2F*%0Aand%20here%0A*%2F%0A%0A)
+to [Manipulate Arrays With pop](https://www.freecodecamp.com/challenges/manipulate-arrays-with-pop#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[1%2C2%2C3]%3B%0Avar%20removedFromOurArray%20%3D%20ourArray.pop%28%29%3B%20%0A%2F%2F%20removedFromOurArray%20now%20equals%203%2C%20and%20ourArray%20now%20equals%20[1%2C2]%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[[%22John%22%2C%2023]%2C%20[%22cat%22%2C%202]]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Avar%20removedFromMyArray%20%3D%20myArray.pop%28%29%3B%0A%0A%0A)
+
+### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
 
