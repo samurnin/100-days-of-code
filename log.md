@@ -61,6 +61,16 @@ to [Use jQuery to Modify the Entire Page](https://www.freecodecamp.com/challenge
 From [Comment your JavaScript Code](https://www.freecodecamp.com/challenges/comment-your-javascript-code#?solution=%2F%2F%20to%20have%20some%20comment%20here%0A%2F*%0Aand%20here%0A*%2F%0A%0A)
 to [Manipulate Arrays With pop](https://www.freecodecamp.com/challenges/manipulate-arrays-with-pop#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[1%2C2%2C3]%3B%0Avar%20removedFromOurArray%20%3D%20ourArray.pop%28%29%3B%20%0A%2F%2F%20removedFromOurArray%20now%20equals%203%2C%20and%20ourArray%20now%20equals%20[1%2C2]%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[[%22John%22%2C%2023]%2C%20[%22cat%22%2C%202]]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Avar%20removedFromMyArray%20%3D%20myArray.pop%28%29%3B%0A%0A%0A)
 
+### Day 7: January 09, Monday
+
+**Today's Progress**:  I've just went through several JS tasks.
+
+**Thoughts** Today is really busy day :(
+
+**Link(s) to work**
+From [Manipulate Arrays With shift](https://www.freecodecamp.com/challenges/manipulate-arrays-with-shift#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[%22Stimpson%22%2C%20%22J%22%2C%20[%22cat%22]]%3B%0AremovedFromOurArray%20%3D%20ourArray.shift%28%29%3B%0A%2F%2F%20removedFromOurArray%20now%20equals%20%22Stimpson%22%20and%20ourArray%20now%20equals%20[%22J%22%2C%20[%22cat%22]].%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[[%22John%22%2C%2023]%2C%20[%22dog%22%2C%203]]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Avar%20removedFromMyArray%20%3D%20myArray.shift%28%29%3B%0A%0A%0A)
+to [Assignment with a Returned Value](https://www.freecodecamp.com/challenges/assignment-with-a-returned-value#?solution=%0A%2F%2F%20Example%0Avar%20changed%20%3D%200%3B%0A%0Afunction%20change%28num%29%20{%0A%20%20return%20%28num%20%2B%205%29%20%2F%203%3B%0A}%0A%0Achanged%20%3D%20change%2810%29%3B%0A%0A%2F%2F%20Setup%0Avar%20processed%20%3D%200%3B%0A%0Afunction%20processArg%28num%29%20{%0A%20%20return%20%28num%20%2B%203%29%20%2F%205%3B%0A}%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line%0A%20processed%20%3D%20processArg%287%29%3B%0A%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
