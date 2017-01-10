@@ -71,6 +71,16 @@ to [Manipulate Arrays With pop](https://www.freecodecamp.com/challenges/manipula
 From [Manipulate Arrays With shift](https://www.freecodecamp.com/challenges/manipulate-arrays-with-shift#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[%22Stimpson%22%2C%20%22J%22%2C%20[%22cat%22]]%3B%0AremovedFromOurArray%20%3D%20ourArray.shift%28%29%3B%0A%2F%2F%20removedFromOurArray%20now%20equals%20%22Stimpson%22%20and%20ourArray%20now%20equals%20[%22J%22%2C%20[%22cat%22]].%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[[%22John%22%2C%2023]%2C%20[%22dog%22%2C%203]]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Avar%20removedFromMyArray%20%3D%20myArray.shift%28%29%3B%0A%0A%0A)
 to [Assignment with a Returned Value](https://www.freecodecamp.com/challenges/assignment-with-a-returned-value#?solution=%0A%2F%2F%20Example%0Avar%20changed%20%3D%200%3B%0A%0Afunction%20change%28num%29%20{%0A%20%20return%20%28num%20%2B%205%29%20%2F%203%3B%0A}%0A%0Achanged%20%3D%20change%2810%29%3B%0A%0A%2F%2F%20Setup%0Avar%20processed%20%3D%200%3B%0A%0Afunction%20processArg%28num%29%20{%0A%20%20return%20%28num%20%2B%203%29%20%2F%205%3B%0A}%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line%0A%20processed%20%3D%20processArg%287%29%3B%0A%0A)
 
+### Day 8: January 10, Tuesday
+
+**Today's Progress**: I still focus on Javascript basic tasks
+
+**Thoughts** Java is better ;)
+
+**Link(s) to work**
+From [Stand in Line](https://www.freecodecamp.com/challenges/stand-in-line#?solution=%0Afunction%20nextInLine%28arr%2C%20item%29%20{%0A%20%20%2F%2F%20Your%20code%20here%0A%20%20arr.push%28item%29%3B%20%0A%20%20return%20arr.shift%28%29%3B%20%20%2F%2F%20Change%20this%20line%0A}%0A%0A%2F%2F%20Test%20Setup%0Avar%20testArr%20%3D%20[1%2C2%2C3%2C4%2C5]%3B%0A%0A%2F%2F%20Display%20Code%0Aconsole.log%28%22Before%3A%20%22%20%2B%20JSON.stringify%28testArr%29%29%3B%0Aconsole.log%28nextInLine%28testArr%2C%206%29%29%3B%20%2F%2F%20Modify%20this%20line%20to%20test%0Aconsole.log%28%22After%3A%20%22%20%2B%20JSON.stringify%28testArr%29%29%3B%0A)
+to [Returning Boolean Values from Functions](https://www.freecodecamp.com/challenges/returning-boolean-values-from-functions#?solution=%0Afunction%20isLess%28a%2C%20b%29%20{%0A%20%20%2F%2F%20Fix%20this%20code%0A%20%20return%20%28a%20%3C%3D%20b%29%3B%20%0A}%0A%0A%2F%2F%20Change%20these%20values%20to%20test%0AisLess%2810%2C%2015%29%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
