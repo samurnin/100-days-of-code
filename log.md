@@ -91,6 +91,16 @@ to [Returning Boolean Values from Functions](https://www.freecodecamp.com/challe
 From [Return Early Pattern for Functions](https://www.freecodecamp.com/challenges/return-early-pattern-for-functions#?solution=%0A%2F%2F%20Setup%0Afunction%20abTest%28a%2C%20b%29%20{%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line%0A%20%20%0A%20%20if%20%28%20a%20%3C%200%20||%20b%20%3C%200%29%20return%20undefined%3B%0A%20%20%0A%20%20%2F%2F%20Only%20change%20code%20above%20this%20line%0A%0A%20%20return%20Math.round%28Math.pow%28Math.sqrt%28a%29%20%2B%20Math.sqrt%28b%29%2C%202%29%29%3B%0A}%0A%0A%2F%2F%20Change%20values%20below%20to%20test%20your%20code%0AabTest%282%2C2%29%3B%0A)
 to [Updating Object Properties](https://www.freecodecamp.com/challenges/updating-object-properties#?solution=%0A%2F%2F%20Example%0Avar%20ourDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Camper%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22everything!%22]%0A}%3B%0A%0AourDog.name%20%3D%20%22Happy%20Camper%22%3B%0A%0A%2F%2F%20Setup%0Avar%20myDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Coder%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22Free%20Code%20Camp%20Campers%22]%0A}%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0AmyDog.name%20%3D%20%22Happy%20Coder%22%3B%0A)
 
+### Day 10: January 13, Friday
+
+**Today's Progress**: Just one more couple of JS tasks
+
+**Thoughts** JS is boring a bit :)
+
+**Link(s) to work**
+From [Add New Properties to a JavaScript Object](https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object#?solution=%0A%2F%2F%20Example%0Avar%20ourDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Camper%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22everything!%22]%0A}%3B%0A%0AourDog.bark%20%3D%20%22bow-wow%22%3B%0A%0A%2F%2F%20Setup%0Avar%20myDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Happy%20Coder%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22Free%20Code%20Camp%20Campers%22]%0A}%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0AmyDog.bark%20%3D%20%22woof%22%3B%0A)
+to [Testing Objects for Properties](https://www.freecodecamp.com/challenges/testing-objects-for-properties#?solution=%0A%2F%2F%20Setup%0Avar%20myObj%20%3D%20{%0A%20%20gift%3A%20%22pony%22%2C%0A%20%20pet%3A%20%22kitten%22%2C%0A%20%20bed%3A%20%22sleigh%22%0A}%3B%0A%0Afunction%20checkObj%28checkProp%29%20{%0A%20%20%2F%2F%20Your%20Code%20Here%0A%20%20var%20isExist%20%3D%20myObj.hasOwnProperty%28checkProp%29%3B%0A%20%20if%20%28isExist%29%0A%20%20%20%20return%20myObj[checkProp]%3B%0A%20%20else%0A%20%20%20%20return%20%22Not%20Found%22%3B%0A}%0A%0A%2F%2F%20Test%20your%20code%20by%20modifying%20these%20values%0AcheckObj%28%22gift%22%29%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
