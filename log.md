@@ -101,6 +101,17 @@ to [Updating Object Properties](https://www.freecodecamp.com/challenges/updating
 From [Add New Properties to a JavaScript Object](https://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object#?solution=%0A%2F%2F%20Example%0Avar%20ourDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Camper%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22everything!%22]%0A}%3B%0A%0AourDog.bark%20%3D%20%22bow-wow%22%3B%0A%0A%2F%2F%20Setup%0Avar%20myDog%20%3D%20{%0A%20%20%22name%22%3A%20%22Happy%20Coder%22%2C%0A%20%20%22legs%22%3A%204%2C%0A%20%20%22tails%22%3A%201%2C%0A%20%20%22friends%22%3A%20[%22Free%20Code%20Camp%20Campers%22]%0A}%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0AmyDog.bark%20%3D%20%22woof%22%3B%0A)
 to [Testing Objects for Properties](https://www.freecodecamp.com/challenges/testing-objects-for-properties#?solution=%0A%2F%2F%20Setup%0Avar%20myObj%20%3D%20{%0A%20%20gift%3A%20%22pony%22%2C%0A%20%20pet%3A%20%22kitten%22%2C%0A%20%20bed%3A%20%22sleigh%22%0A}%3B%0A%0Afunction%20checkObj%28checkProp%29%20{%0A%20%20%2F%2F%20Your%20Code%20Here%0A%20%20var%20isExist%20%3D%20myObj.hasOwnProperty%28checkProp%29%3B%0A%20%20if%20%28isExist%29%0A%20%20%20%20return%20myObj[checkProp]%3B%0A%20%20else%0A%20%20%20%20return%20%22Not%20Found%22%3B%0A}%0A%0A%2F%2F%20Test%20your%20code%20by%20modifying%20these%20values%0AcheckObj%28%22gift%22%29%3B%0A)
 
+### Day 11: January 14, Saturday
+
+**Today's Progress**: Added some solutions for JS tasks.
+
+**Thoughts** I did it!
+
+**Link(s) to work**
+From [Manipulating Complex Objects](https://www.freecodecamp.com/challenges/manipulating-complex-objects#?solution=%0Avar%20myMusic%20%3D%20[%0A%20%20{%0A%20%20%20%20%22artist%22%3A%20%22Billy%20Joel%22%2C%0A%20%20%20%20%22title%22%3A%20%22Piano%20Man%22%2C%0A%20%20%20%20%22release_year%22%3A%201973%2C%0A%20%20%20%20%22formats%22%3A%20[%20%0A%20%20%20%20%20%20%22CS%22%2C%20%0A%20%20%20%20%20%20%228T%22%2C%20%0A%20%20%20%20%20%20%22LP%22%20]%2C%0A%20%20%20%20%22gold%22%3A%20true%0A%20%20}%2C%0A%20%20%2F%2F%20Add%20record%20here%0A%20%20{%22artist%22%20%3A%20%22New%20Artist%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22New%20Title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%22release_year%22%3A%202017%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%22formats%22%3A%20[%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22CS%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22LP%22]%0A%20%20}%0A]%3B%0A%0A)
+to [Accessing Nested Arrays](https://www.freecodecamp.com/challenges/accessing-nested-arrays#?solution=%0A%2F%2F%20Setup%0Avar%20myPlants%20%3D%20[%0A%20%20{%20%0A%20%20%20%20type%3A%20%22flowers%22%2C%0A%20%20%20%20list%3A%20[%0A%20%20%20%20%20%20%22rose%22%2C%0A%20%20%20%20%20%20%22tulip%22%2C%0A%20%20%20%20%20%20%22dandelion%22%0A%20%20%20%20]%0A%20%20}%2C%0A%20%20{%0A%20%20%20%20type%3A%20%22trees%22%2C%0A%20%20%20%20list%3A%20[%0A%20%20%20%20%20%20%22fir%22%2C%0A%20%20%20%20%20%20%22pine%22%2C%0A%20%20%20%20%20%20%22birch%22%0A%20%20%20%20]%0A%20%20}%20%20%0A]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line%0A%0Avar%20secondTree%20%3D%20myPlants[1].list[1]%3B%20%2F%2F%20Change%20this%20line%0A%0A)
+
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
