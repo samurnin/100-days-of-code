@@ -112,6 +112,16 @@ From [Manipulating Complex Objects](https://www.freecodecamp.com/challenges/mani
 to [Accessing Nested Arrays](https://www.freecodecamp.com/challenges/accessing-nested-arrays#?solution=%0A%2F%2F%20Setup%0Avar%20myPlants%20%3D%20[%0A%20%20{%20%0A%20%20%20%20type%3A%20%22flowers%22%2C%0A%20%20%20%20list%3A%20[%0A%20%20%20%20%20%20%22rose%22%2C%0A%20%20%20%20%20%20%22tulip%22%2C%0A%20%20%20%20%20%20%22dandelion%22%0A%20%20%20%20]%0A%20%20}%2C%0A%20%20{%0A%20%20%20%20type%3A%20%22trees%22%2C%0A%20%20%20%20list%3A%20[%0A%20%20%20%20%20%20%22fir%22%2C%0A%20%20%20%20%20%20%22pine%22%2C%0A%20%20%20%20%20%20%22birch%22%0A%20%20%20%20]%0A%20%20}%20%20%0A]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line%0A%0Avar%20secondTree%20%3D%20myPlants[1].list[1]%3B%20%2F%2F%20Change%20this%20line%0A%0A)
 
 
+### Day 12: January 15, Sunday
+
+**Today's Progress**: Finally I completed all JS basic tasks.
+
+**Thoughts** For JS tasks I need to pay more attention.
+
+**Link(s) to work**
+From [Iterate with JavaScript For Loops](https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[]%3B%0A%0Afor%20%28var%20i%20%3D%200%3B%20i%20%3C%205%3B%20i%2B%2B%29%20{%0A%20%20ourArray.push%28i%29%3B%0A}%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Afor%20%28var%20i%20%3D%201%3B%20i%20%3C%206%3B%20i%2B%2B%29%20{%0A%20%20myArray.push%28i%29%3B%0A}%0A%0A)
+to [Invert Regular Expression Matches with JavaScript](https://www.freecodecamp.com/challenges/invert-regular-expression-matches-with-javascript#?solution=%0A%2F%2F%20Setup%0Avar%20testString%20%3D%20%22How%20many%20non-space%20characters%20are%20there%20in%20this%20sentence%3F%22%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20expression%20%3D%20%2F\S%2Fg%3B%20%20%2F%2F%20Change%20this%20line%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line%0A%0A%2F%2F%20This%20code%20counts%20the%20matches%20of%20expression%20in%20testString%0Avar%20nonSpaceCount%20%3D%20testString.match%28expression%29.length%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
