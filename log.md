@@ -122,6 +122,17 @@ to [Accessing Nested Arrays](https://www.freecodecamp.com/challenges/accessing-n
 From [Iterate with JavaScript For Loops](https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops#?solution=%0A%2F%2F%20Example%0Avar%20ourArray%20%3D%20[]%3B%0A%0Afor%20%28var%20i%20%3D%200%3B%20i%20%3C%205%3B%20i%2B%2B%29%20{%0A%20%20ourArray.push%28i%29%3B%0A}%0A%0A%2F%2F%20Setup%0Avar%20myArray%20%3D%20[]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Afor%20%28var%20i%20%3D%201%3B%20i%20%3C%206%3B%20i%2B%2B%29%20{%0A%20%20myArray.push%28i%29%3B%0A}%0A%0A)
 to [Invert Regular Expression Matches with JavaScript](https://www.freecodecamp.com/challenges/invert-regular-expression-matches-with-javascript#?solution=%0A%2F%2F%20Setup%0Avar%20testString%20%3D%20%22How%20many%20non-space%20characters%20are%20there%20in%20this%20sentence%3F%22%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20expression%20%3D%20%2F\S%2Fg%3B%20%20%2F%2F%20Change%20this%20line%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line%0A%0A%2F%2F%20This%20code%20counts%20the%20matches%20of%20expression%20in%20testString%0Avar%20nonSpaceCount%20%3D%20testString.match%28expression%29.length%3B%0A)
 
+
+### Day 13: January 17, Tuesday
+
+**Today's Progress**: A couple of JS tasks about OOP.
+
+**Thoughts** Finally I found some energy to focus on the challenge.
+
+**Link(s) to work**
+From [Declare JavaScript Objects as Variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables#?solution=%0Avar%20car%20%3D%20{%0A%20%20%22wheels%22%3A4%2C%0A%20%20%22engines%22%3A1%2C%0A%20%20%22seats%22%3A5%0A}%3B%0A%0Avar%20motorBike%20%3D%20{%0A%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%22wheels%22%3A%202%2C%0A%20%20%22engines%22%3A%201%2C%0A%20%20%22seats%22%3A%202%0A}%3B%0A)
+to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private#?solution=%0Avar%20Car%20%3D%20function%28%29%20{%0A%20%20%2F%2F%20this%20is%20a%20private%20variable%0A%20%20var%20speed%20%3D%2010%3B%0A%0A%20%20%2F%2F%20these%20are%20public%20methods%0A%20%20this.accelerate%20%3D%20function%28change%29%20{%0A%20%20%20%20speed%20%2B%3D%20change%3B%0A%20%20}%3B%0A%0A%20%20this.decelerate%20%3D%20function%28%29%20{%0A%20%20%20%20speed%20-%3D%205%3B%0A%20%20}%3B%0A%0A%20%20this.getSpeed%20%3D%20function%28%29%20{%0A%20%20%20%20return%20speed%3B%0A%20%20}%3B%0A}%3B%0A%0Avar%20Bike%20%3D%20function%28%29%20{%0A%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20var%20gear%3B%0A%20%20%0A%20%20this.getGear%20%3D%20function%28%29%20{%0A%20%20%20%20return%20gear%3B%0A%20%20}%3B%0A%20%20%0A%20%20this.setGear%20%3D%20function%28add%29{%0A%20%20%20%20gear%20%3D%20add%3B%20%0A%20%20}%3B%0A%0A}%3B%0A%0Avar%20myCar%20%3D%20new%20Car%28%29%3B%0A%0Avar%20myBike%20%3D%20new%20Bike%28%29%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
