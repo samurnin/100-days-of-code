@@ -133,6 +133,17 @@ to [Invert Regular Expression Matches with JavaScript](https://www.freecodecamp.
 From [Declare JavaScript Objects as Variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables#?solution=%0Avar%20car%20%3D%20{%0A%20%20%22wheels%22%3A4%2C%0A%20%20%22engines%22%3A1%2C%0A%20%20%22seats%22%3A5%0A}%3B%0A%0Avar%20motorBike%20%3D%20{%0A%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20%22wheels%22%3A%202%2C%0A%20%20%22engines%22%3A%201%2C%0A%20%20%22seats%22%3A%202%0A}%3B%0A)
 to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private#?solution=%0Avar%20Car%20%3D%20function%28%29%20{%0A%20%20%2F%2F%20this%20is%20a%20private%20variable%0A%20%20var%20speed%20%3D%2010%3B%0A%0A%20%20%2F%2F%20these%20are%20public%20methods%0A%20%20this.accelerate%20%3D%20function%28change%29%20{%0A%20%20%20%20speed%20%2B%3D%20change%3B%0A%20%20}%3B%0A%0A%20%20this.decelerate%20%3D%20function%28%29%20{%0A%20%20%20%20speed%20-%3D%205%3B%0A%20%20}%3B%0A%0A%20%20this.getSpeed%20%3D%20function%28%29%20{%0A%20%20%20%20return%20speed%3B%0A%20%20}%3B%0A}%3B%0A%0Avar%20Bike%20%3D%20function%28%29%20{%0A%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%20%20var%20gear%3B%0A%20%20%0A%20%20this.getGear%20%3D%20function%28%29%20{%0A%20%20%20%20return%20gear%3B%0A%20%20}%3B%0A%20%20%0A%20%20this.setGear%20%3D%20function%28add%29{%0A%20%20%20%20gear%20%3D%20add%3B%20%0A%20%20}%3B%0A%0A}%3B%0A%0Avar%20myCar%20%3D%20new%20Car%28%29%3B%0A%0Avar%20myBike%20%3D%20new%20Bike%28%29%3B%0A)
 
+
+### Day 14: January 18, Wednesday
+
+**Today's Progress**: Map and Reduce JS examples
+
+**Thoughts** Nothing, I just want to sleep :)
+
+**Link(s) to work**
+From [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map#?solution=%0Avar%20oldArray%20%3D%20[1%2C2%2C3%2C4%2C5]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20newArray%20%3D%20oldArray.map%28function%28val%29{%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20val%20%2B%203%3B%0A}%29%3B%0A)
+to [Filter Arrays with filter](https://www.freecodecamp.com/challenges/filter-arrays-with-filter#?solution=%0Avar%20oldArray%20%3D%20[1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20newArray%20%3D%20oldArray.filter%28function%28val%29{%0A%20%20return%20val%20%3C%206%3B%0A}%29%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
