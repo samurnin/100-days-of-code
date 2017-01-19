@@ -144,6 +144,16 @@ to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make
 From [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map#?solution=%0Avar%20oldArray%20%3D%20[1%2C2%2C3%2C4%2C5]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20newArray%20%3D%20oldArray.map%28function%28val%29{%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20val%20%2B%203%3B%0A}%29%3B%0A)
 to [Filter Arrays with filter](https://www.freecodecamp.com/challenges/filter-arrays-with-filter#?solution=%0Avar%20oldArray%20%3D%20[1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20newArray%20%3D%20oldArray.filter%28function%28val%29{%0A%20%20return%20val%20%3C%206%3B%0A}%29%3B%0A)
 
+### Day 15: January 19, Thursday
+
+**Today's Progress**: I've just finalized JS OOP tasks. 
+
+**Thoughts** Today I've mentioned that JS can be as a elegant language :)
+
+**Link(s) to work**
+From [Sort Arrays with sort](https://www.freecodecamp.com/challenges/sort-arrays-with-sort#?solution=%0Avar%20array%20%3D%20[1%2C%2012%2C%2021%2C%202]%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Aarray.sort%28function%28a%2C%20b%29%20{%0A%20%20return%20b%20-%20a%3B%0A}%29%3B%0A)
+to [Join Strings with join](https://www.freecodecamp.com/challenges/join-strings-with-join#?solution=%0Avar%20joinMe%20%3D%20[%22Split%22%2C%22me%22%2C%22into%22%2C%22an%22%2C%22array%22]%3B%0Avar%20joinedString%20%3D%20%27%27%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0AjoinedString%20%3D%20joinMe.join%28%27%20%27%29%3B%0A)
+
 ### Day N: January 32, Saturday
 
 **Today's Progress**: TBD
